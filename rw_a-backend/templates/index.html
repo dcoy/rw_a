@@ -1,0 +1,9 @@
+<!--index.html-->
+
+{{ template "header.html" .}}
+
+  <h1>{{ .title }}</h1>
+
+  <h3>{{template "issues.html" .}}</h3>
+
+{{ template "footer.html" .}}
