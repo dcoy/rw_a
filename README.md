@@ -6,14 +6,11 @@ Create a web application that pulls in and renders a list of GitHub issues given
 
 ## FrontEnd
 
-* React
-* Typescript? (Default JS)
-* TailwindCSS
+* Bootstrap CSS (for simplicity)
 
 ## Backend?
 
 * Golang
-* Node (express)
 
 ## User flow
 
@@ -21,11 +18,7 @@ Create a web application that pulls in and renders a list of GitHub issues given
 
 ## What to anticipate
 
-* GH Repo link
-* GH Repo issues link (/issues)
-* GH Clone link (.git)
-* Incorrect GH link format
-  * Provide correct error code and how to remedy
-* User input sanitization
-* GH is down (it happens)
-  * Throw Modal "GH is down" + GH status page link
+* [x] GH Repo link
+* [x] GH Repo issues link (/issues)
+* [x] GH Clone link (.git)
+* [x] Incorrect GH link format
