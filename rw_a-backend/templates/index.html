@@ -1,9 +1,8 @@
 <!--index.html-->
 
 {{ template "header.html" .}}
-
-  <h1>{{ .title }}</h1>
-
-  <h3>{{template "issues.html" .}}</h3>
-
+  <div class="container">
+    <h1 class="text-center">{{ .title }}</h1>
+    <div class="row">{{template "form.html"}}</div>
+  </div>
 {{ template "footer.html" .}}
