@@ -88,7 +88,7 @@ func listOpenIssues(c *gin.Context) {
 	client := github.NewClient(tc)
 
 	opt := &github.IssueListByRepoOptions{
-		State: "open",
+		State: "all",
 	}
 	issues, _, err := client.Issues.ListByRepo(ctx, owner, repo, opt)
 	if err != nil {
